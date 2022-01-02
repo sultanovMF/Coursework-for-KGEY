@@ -99,8 +99,9 @@ namespace FinalCoursework
                 row.Cells[0].Value = addTeacherForm.Teacher.Surname;
                 row.Cells[1].Value = addTeacherForm.Teacher.Name;
                 row.Cells[2].Value = addTeacherForm.Teacher.MiddleName;
-                row.Cells[3].Value = addTeacherForm.Teacher.Number;
-                row.Cells[4].Value = addTeacherForm.Teacher.Experience;
+                row.Cells[3].Value = addTeacherForm.Teacher.Subject;
+                row.Cells[4].Value = addTeacherForm.Teacher.Number;
+                row.Cells[5].Value = addTeacherForm.Teacher.Experience;
                 this.TeachersData.Rows.Add(row);
             }
         }
